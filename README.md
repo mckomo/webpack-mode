@@ -23,7 +23,6 @@ When you run `webpack --mode=production`
 
 ```js
 // webpack.config.js
-const path = require('path');
 const { isProduction } = require('webpack-mode');
 
 console.log(isProduction); // => true
