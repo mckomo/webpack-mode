@@ -1,0 +1,9 @@
+node tests/production.test.js --mode production && node tests/development.test.js --mode development
+
+RESULT=$?
+
+if [ $RESULT -eq 0 ]; then
+    echo "\033[1;32mSUCESS"
+fi
+
+exit $RESULT

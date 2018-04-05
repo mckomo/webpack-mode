@@ -1,0 +1,27 @@
+{
+  "name": "webpack-mode",
+  "version": "1.0.0",
+  "description": "Get current mode of Webpack 4 build",
+  "main": "index.js",
+  "repository": "github:mckomo/webpack-mode",
+  "keywords": [
+    "webpack",
+    "mode"
+  ],
+  "author": "Mckomo <mckomo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckomo/webpack-mode/issues"
+  },
+  "homepage": "https://github.com/mckomo/webpack-mode#readme",
+  "scripts": {
+    "test": "./run_tests"
+  },
+  "dependencies": {
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jest": "^22.4.3"
+  }
+}
