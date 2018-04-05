@@ -1,6 +1,6 @@
 {
   "name": "webpack-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get current mode of Webpack 4 build",
   "main": "index.js",
   "repository": "github:mckomo/webpack-mode",
