@@ -1,4 +1,5 @@
 # webpack-mode
+[![Build Status](https://travis-ci.org/mckomo/webpack-mode.svg?branch=master)](https://travis-ci.org/mckomo/webpack-mode)
 
 Get easily environment mode of Webpack build. **Works only with Webpack 4**.
 
@@ -41,7 +42,7 @@ webpackMode.isProduction; // false
 webpackMode.isDevelopment; // true
 
 webpackMode == 'development'; // true
-webpackMode === 'development; // false - webpackMode is not a string
+webpackMode === 'development'; // false - webpackMode is not a string
 
 console.log(`${webpackMode}`); // 'development'
 ```
