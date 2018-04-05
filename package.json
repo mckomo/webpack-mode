@@ -6,7 +6,8 @@
   "repository": "github:mckomo/webpack-mode",
   "keywords": [
     "webpack",
-    "mode"
+    "mode",
+    "environment"
   ],
   "author": "Mckomo <mckomo@gmail.com>",
   "license": "ISC",
