@@ -1,9 +1,13 @@
-node tests/production.test.js --mode production && node tests/development.test.js --mode development
+node tests/production.test.js --mode production && \
+NODE_ENV=production node tests/production.test.js && \
+NODE_ENV=unknown node tests/production.test.js && \
+node tests/development.test.js --mode development && \
+NODE_ENV=development node tests/development.test.js
 
 RESULT=$?
 
 if [ $RESULT -eq 0 ]; then
-    echo "\033[1;32mSUCESS"
+    echo "\033[1;32mSUCCESS"
 fi
 
 exit $RESULT
